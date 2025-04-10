@@ -34,11 +34,12 @@ Make sure you have Python 3 installed along with the following libraries:
 
 ```bash
 pip install opencv-python
-```
-```bash
 pip install PyQt5
-
+pip install numpy
+pip install scipy
 ```
+
+
 
 ## Run the App
 - Update the UI path in the script (design.ui) to match your system path:
@@ -53,7 +54,6 @@ python vision_toolkit.py
 ### 📁 VisionToolkit
 - ┣ 📜 vision_toolkit.py
 - ┣ 📄 design.ui         # Qt Designer UI file
-- ┣ 🖼️ screenshot.png     # Optional: GUI screenshot
 
 
 
