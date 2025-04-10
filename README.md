@@ -33,15 +33,18 @@ This is a **PyQt5-based desktop application** for applying various **image proce
 Make sure you have Python 3 installed along with the following libraries:
 
 ```bash
-pip install opencv-python PyQt5 numpy scipy
+pip install opencv-python
 ```
+```bash
+pip install PyQt5
 
-
+```
 
 ## Run the App
 - Update the UI path in the script (design.ui) to match your system path:
-- uic.loadUi(r"C:\Path\To\Your\design.ui", self)
-
+```bash
+uic.loadUi(r"C:\Path\To\Your\design.ui", self)
+```
 Then run:
 python vision_toolkit.py
 
