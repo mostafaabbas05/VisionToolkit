@@ -34,7 +34,7 @@ Make sure you have Python 3 installed along with the following libraries:
 
 ```bash
 pip install opencv-python PyQt5 numpy scipy
-
+```
 
 
 
